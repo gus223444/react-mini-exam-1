@@ -15,9 +15,9 @@ const AddMenu = ({onAdd}) => {
     }
     return (
         <form className='add' onSubmit={handleSubmit}>
-            <input type="text" 
+            <input type="text"
             ref={inputRef}
-            placeholder='먹고 싶은 메뉴를 추가해요(예:김밥)'/>
+            placeholder='듣고 싶은 장르를 추가해요(예:재즈 )'/>
             <button type='submit'>추가</button>
         </form>
     )
