@@ -25,7 +25,7 @@ const addMenu=(name)=>{
         ))}
       </ul>
       <footer className='footer'>
-        <button type='bitton' className='reset'>투표 초기화</button>
+        <button type='button' className='reset'>투표 초기화</button>
       </footer>
     </div>
   )
