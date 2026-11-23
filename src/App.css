@@ -1,5 +1,5 @@
 :root {
-  --primary: #ff7a45;
+  --primary: #45a5ff;
   --text: #222;
   --muted: #888;
   --bg: #fff8f3;
@@ -137,7 +137,9 @@ input {
   font-weight: 700;
   cursor: pointer;
 }
-
+.card__btn:hover{
+  border: 2px solid #000;
+}
 .card__btn:active {
   transform: scale(.96);
 }
@@ -150,4 +152,11 @@ input {
 .reset {
   background: #ddd;
   color: var(--text);
-} 
+}
+
+.reset:hover{
+  border: 2px solid #000;
+}
+.reset:active {
+  transform: scale(.96);
+}

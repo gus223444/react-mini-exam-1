@@ -7,18 +7,18 @@ import { useState } from 'react'
 function App() {
 
   const [menus, setMenus] = useState(initialMeuns)
-const addMenu=(name)=>{
-  setMenus([...menus,{
-    id:Date.now(),
-    emoji:('🎶'),
-    name:name,
-    votes:0
-  }])
-}
+  const addMenu = (name) => {
+    setMenus([...menus, {
+      id: Date.now(),
+      emoji: ('🎶'),
+      name: name,
+      votes: 0
+    }])
+  }
   return (
     <div className='app'>
       <Header title={'🎶 오늘 노래 뭐 듣지?'} />
-      <AddMenu onAdd={addMenu}/>
+      <AddMenu onAdd={addMenu} />
       <ul className='menus'>
         {menus.map((m) => (
           <MenuCard key={m.id} {...m} />
