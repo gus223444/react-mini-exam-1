@@ -106,7 +106,7 @@ input {
   padding: 2px 10px;
   border-radius: 99px;
   background: var(--primary);
-  color: #fff;
+  color: #000;
   font-size: 12px;
   font-weight: 700;
 }
