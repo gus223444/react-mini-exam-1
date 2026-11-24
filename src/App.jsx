@@ -41,7 +41,7 @@ function App() {
 
   return (
     <div className='app'>
-      <Header title={'🍱 오늘 점심 뭐 먹지?'} total={total} />
+      <Header title={'🎶 오늘 노래 뭐 듣지?'} total={total} />
       <AddMenu onAdd={addMenu} />
       <ul className='menus'>
         {menus.map((m) => (
