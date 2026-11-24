@@ -31,7 +31,7 @@ function App() {
   const addMenu = (name) => {
     setMenus([...menus, {
       id: Date.now(),
-      emoji: ('🍽️'),
+      emoji: ('🎶'),
       name: name,
       votes: 0
     }])
